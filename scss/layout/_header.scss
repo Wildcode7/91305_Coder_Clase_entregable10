@@ -1,0 +1,36 @@
+@use "../utilities/variables" as vars;
+// @use "../utilities/mixins" as mix;
+
+header {
+    background-color: vars.$color-primario;
+}
+
+// .navbar {
+//     background-color: vars.$color-primario;
+
+//     .navbar-brand {
+//         @include mix.flex-center;
+//         gap: 10px;
+
+//         img {
+//             width: 50px;
+//             height: 50px;
+//             object-fit: cover;
+//             border-radius: 7px;
+//         }
+//     }
+
+//     .nav-link {
+//         color: vars.$color-blanco;
+
+//         &:hover {
+//             color: vars.$color-acento;
+//         }
+//     }
+
+//     .navbar-nav {
+//         margin-left: auto;
+//         gap: 10px;
+//     }
+// }
+

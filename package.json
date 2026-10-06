@@ -1,0 +1,23 @@
+﻿{
+    "scripts":  {
+                    "sass":  "sass ./scss/main.scss ./styles/styles.css --source-map",
+                    "test":  "echo \"Error: no test specified\" \u0026\u0026 exit 1"
+                },
+    "description":  "Proyecto de desarrollo web correspondiente al Entregable 10 del proceso de formación en Desarrollo Web Full Stack.",
+    "type":  "commonjs",
+    "version":  "1.0.0",
+    "author":  "Milton Developer",
+    "name":  "entregable10",
+    "main":  "index.js",
+    "devDependencies":  {
+                            "sass":  "^1.105.1"
+                        },
+    "license":  "ISC",
+    "keywords":  [
+                     "html",
+                     "css",
+                     "scss",
+                     "sass",
+                     "desarrollo-web"
+                 ]
+}

@@ -1,0 +1,9 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+}
+
+@mixin button-variant($background, $border) {
+    background-color: $background;
+    border-color: $border;
+}

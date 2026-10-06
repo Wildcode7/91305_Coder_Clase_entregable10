@@ -1,0 +1,33 @@
+@use "../utilities/variables" as vars;
+@use "../utilities/mixins" as mix;
+
+.btn-primary {
+    @include mix.button-variant(
+        vars.$color-primario,
+        vars.$color-primario
+    );
+
+    &:hover {
+        @include mix.button-variant(
+            vars.$color-acento,
+            vars.$color-acento
+        );
+    }
+}
+
+.btn-base {
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.btn-secundario {
+    @extend .btn-base;
+
+    background-color: gray;
+}
+
+
+
+
+

@@ -1,0 +1,42 @@
+@use "../utilities/variables" as vars;
+
+.presentacion img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.imagen-presentacion img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 12px;
+}
+
+.quote {
+    font-size: 1rem;
+    font-style: italic;
+    color: vars.$color-secundario;
+    border-left: 5px solid vars.$color-secundario;
+    padding-left: 7px;
+    margin: 6px;
+}
+
+figure {
+    text-align: center;
+    margin-top: 25px;
+}
+
+figure img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 4px solid vars.$color-secundario;
+}
+
+figcaption {
+    margin-top: 12px;
+    font-style: italic;
+    color: vars.$color-gris;
+}

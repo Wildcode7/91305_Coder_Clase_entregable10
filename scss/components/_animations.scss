@@ -1,0 +1,26 @@
+// Animación de entrada
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+            }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.presentacion {
+    animation: aparecer 7s ease-out;
+}
+.presentacion {
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+
+
+

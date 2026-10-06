@@ -1,0 +1,66 @@
+    main {
+        width: 90%;
+        max-width: 1000px;
+        margin: 40px auto;
+    }
+
+    .presentacion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .presentacion > div {
+        flex: 1;
+    }
+
+    // .perfil-profesional {
+    //     display: grid;
+    //     grid-template-columns: 1fr 1fr;
+    //     gap: 30px;
+    //     grid-template-areas:
+    //         "biografia servicios-y-habilidades"
+    //         "objetivo tecnologias";
+    // }
+
+    // .biografia {
+    //     grid-area: biografia;
+    // }
+
+    // .servicios-y-habilidades {
+    //     grid-area: servicios-y-habilidades;
+    // }
+
+    // .objetivo-profesional {
+    //     grid-area: objetivo;
+    // }
+
+    // .tecnologias {
+    //     grid-area: tecnologias;
+    // }
+
+.perfil-profesional {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    grid-template-areas:
+        "biografia objetivo"
+        "servicios-y-habilidades servicios-y-habilidades";
+}
+
+.biografia {
+    grid-area: biografia;
+}
+
+.objetivo-profesional {
+    grid-area: objetivo;
+}
+
+.servicios-y-habilidades {
+    grid-area: servicios-y-habilidades;
+}
+
+
+
+

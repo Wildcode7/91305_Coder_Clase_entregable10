@@ -1,0 +1,177 @@
+// @media (max-width: 1024px) {
+//     header {
+//         flex-direction: column;
+//         align-items: center;
+//         gap: 20px;
+//     }
+
+//     .presentacion img {
+//         max-width: 300px;
+//     }
+
+//     .perfil-profesional {
+//         gap: 20px;
+//     }
+
+//     section {
+//         padding: 20px;
+//     }
+// }
+
+// @media (max-width: 767px) {
+//     header {
+//         flex-direction: column;
+//         align-items: center;
+//         gap: 15px;
+//     }
+
+//     nav ul {
+//         flex-direction: column;
+//         gap: 15px;
+//     }
+
+//     .presentacion {
+//         flex-direction: column;
+//         align-items: center;
+//         gap: 20px;
+//     }
+
+//     .imagen-presentacion img {
+//         max-width: 300px;
+//     }
+
+//     .perfil-profesional {
+//         grid-template-columns: 1fr;
+//         grid-template-areas:
+//             "biografia"
+//             "servicios-y-habilidades"
+//             "objetivo"
+//             "tecnologias";
+//     }
+
+//     footer ul {
+//         display: flex;
+//         flex-direction: column;
+//         gap: 10px;
+//     }
+
+//     h1 {
+//         font-size: 2rem;
+//     }
+
+//     h2 {
+//         font-size: 1.6rem;
+//     }
+// }
+
+// @media (max-width: 600px) {
+//     .perfil-profesional {
+//         grid-template-columns: 1fr;
+//     }
+
+//     header {
+//         flex-direction: column;
+//         gap: 20px;
+//     }
+
+//     .logo {
+//         flex-direction: column;
+//         text-align: center;
+//     }
+
+//     nav ul {
+//         flex-direction: column;
+//         text-align: center;
+//     }
+// }
+// @media (max-width: 1024px) {
+
+//     section {
+//         padding: 20px;
+//     }
+
+//     .presentacion img {
+//         max-width: 300px;
+//     }
+
+//     .perfil-profesional {
+//         gap: 20px;
+//     }
+// }
+
+@media (max-width: 767px) {
+
+    .presentacion {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .imagen-presentacion img {
+        max-width: 300px;
+    }
+
+    // .perfil-profesional {
+    //     grid-template-columns: 1fr;
+    //     grid-template-areas:
+    //         "biografia"
+    //         "servicios-y-habilidades"
+    //         "objetivo"
+    //         "tecnologias";
+    // }
+
+    .perfil-profesional {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "biografia"
+        "objetivo"
+        "servicios-y-habilidades";
+}
+
+    .sobre-mi {
+        grid-template-columns: 1fr;
+    }
+
+    .contenedor-otras-actividades {
+        grid-template-columns: 1fr;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+.datos-contacto {
+    flex-direction: column;
+    gap: 15px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+@use "../utilities/variables" as vars;
+
+.contenedor-proyectos {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.tarjeta {
+    background: vars.$color-blanco;
+    padding: 20px;
+    border-radius: 12px;
+    width: 260px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.20);
+    }
+}
+
+.card-title {
+    color: vars.$color-primario;
+}
+
+.card-text {
+    color: vars.$color-texto;
+}
+
