@@ -89,11 +89,18 @@ npm run sass
 
 El archivo principal scss/main.scss utiliza @use para importar los diferentes partials del proyecto.
 
+
 Repositorio
 
 Repositorio público en GitHub:
 
 https://github.com/Wildcode7/91305_Coder_Clase_entregable10
+
+Sitio desplegado
+
+El proyecto se encuentra desplegado en Vercel:
+
+https://91305coderclaseentregable10.vercel.app/
 
 ## Autor
 
@@ -102,7 +109,5 @@ Milton Cesar Galvez Zapata
 Estudiante de Desarrollo Web Full Stack.
 
 Proyecto desarrollado como parte del proceso de formación en desarrollo web.
-
-
 
 
